@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{adjustbox}
 \graphicspath{{images/}}
 \title{Take-Home Eksamen for DM500 Studieintroduktion til Datalogi}
 \author{Hold 7, Studiegruppe 9: Diego Fernández (difer22), Salma Rashid (sakha22)}
@@ -10,36 +11,67 @@
 \begin{document}
 
 \maketitle
+\tableofcontents
 
-\section{Introduction}
+\section*{Introduktion}
 
-Dette dokument er vores besvarelse for den Take-Home Eksamen til Studieintroduktion til Datalogi. Vi har arbejdet på dokumentet sammen ved at bruge GitHub og LaTeX. Da vi er to i gruppen, skal vi besvare tre opgaver. Vi har valgt at besvare opgave 2 fra DM549 Reeksamen 2015, og ...
+Dette dokument er vores besvarelse for den Take-Home Eksamen til Studieintroduktion til Datalogi. Vi har arbejdet på dokumentet sammen ved at bruge GitHub og LaTeX. Da vi er to i gruppen, skal vi besvare tre opgaver. Vi har valgt at besvare opgaverne 1, 2 og 3 fra DM549 Reeksamen 2015.
 
-\section{Opgave 2: DM549 reeksamen februar 2015}
+\clearpage 
+
+\section{Opgave 1: DM549 reeksamen februar 2015}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Opgave1-beskrivelse.png}
+    \label{fig:opgave 1 opgavebeskrivelse}
+\end{figure}
+
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\textwidth]{Opgave 2 beskrivelse.png}
+    \includegraphics[width=0.7\textwidth]{Opgave 1.jpg}
+    \label{fig:opgave 1 }
+\end{figure}
+
+I opgaven 1a kan vi se, at mængden A er alle de elementer i mængden S ganget 2. For at finde mængden B skal vi tage alle de elementer i mængden S, gange dem med 3 og så lægge 2 til. Fællesmængden af A og B er de elementer, der findes i både A og B, altså kun 8. Foreningsmængden af A og B er alle de elementer, der findes i A eller B. 1e er alle de elementer, der findes i A bortset fra dem, der også findes i B. Og komplementet af A, er alle de elementer, der findes i universet (som i dette tilfælde er fra 1 til 15) bortset fra dem, der også findes i A.  
+
+\clearpage 
+
+\section{Opgave 2: DM549 reeksamen februar 2015}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics{Opgave2-beskrivelse.png}
     \label{fig:opgave 2 opgavebeskrivelse}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\textwidth]{Opgave 2.png}
+    \includegraphics[width=0.75\textwidth]{Opgave 2.jpg}
     \label{fig:opgave 2 besvarelse}
 \end{figure}
+
 I opgave A er den første sandt, fordi lige meget hvilken x-værdi vi finder, eksisterer en y-værdi som er større. \\ 
 Den anden er falsk, fordi der ikke kun eksisterer et y; der eksisterer mange.\\
 Den tredje er også falsk, fordi der ikke eksisterer nogen y, hvor alle x-værdier er mindre. 
 
+\clearpage 
 
 \section{Opgave 3: DM549 reeksamen februar 2015}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\textwidth]{Opgave 3 beskrivelse.png}
+    \includegraphics[width=0.9\textwidth]{Opgave3-beskrivelse.png}
     \label{fig:opgave 3 opgavebeskrivelse}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Opgave 3.jpg}
+    \label{fig:opgave 3 besvarelse}
 \end{figure}
 
 I opgave 3a kan vi se en graf der visualisere relationen og dermed viser at det er en partiel ordning. Grunden til at den er partiel, er fordi den både er refleksiv , antisymmetrisk og transitiv.
 I opgave b skulle vi lave en transitiv lukning og det har vi gjort. Lukningen er {(1,3}
 I opgave c skulle vi skrive ækvivalensklassen for ækvivalensrelationen T.
+
 \end{document}
